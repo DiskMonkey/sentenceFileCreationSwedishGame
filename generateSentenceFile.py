@@ -23,7 +23,7 @@ for line in originalList:
     lineList = line.split(',')
 
     lineList[7] = "RightSuffix"
-    lineList[8] = "LeftSuffix"
+    lineList[8] = "WrongSuffix"
     lineList[10] = "PrefixPartFull"
     lineList[11] = "FullText"
 
