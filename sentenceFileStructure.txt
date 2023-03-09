@@ -1,6 +1,6 @@
 <data.Id>, (seems to just be for debugging purposes, might be required to be unique?)
 <data.AudioFileCount>, // How many audio files does this sentence use, this should be 1 or 2.
-<data.AudioPaths[I]>, (number of these fields specified by the previous field, usually 1. The second of these can be the cough audio file.)
+<data.AudioPaths[I]>, (number of these fields specified by the previous field, usually 1. The second of these can be the cough audio file (played during question phase).)
 <data.HideLastWord>,
 <data.ShowLastWordMs>, // Only used if HideLastWord == 1
 <data.HideChoices>,
