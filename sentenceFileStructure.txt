@@ -8,5 +8,5 @@
 <data.RightSuffix>,
 <data.WrongSuffix>,
 <data.Milliseconds>, // Where to split the first part.
-<data.PrefixPartFull>, (if HideLastWord == 1, add the following string to PrefixPartHidden: everything before the space (if there is a space) in PrefixPartFull)
+<data.PrefixPartFull>, (this is a string, representing the prefix part of the sentence. if HideLastWord == 1, add the following string to PrefixPartHidden: everything before the last space (if there is a space) in PrefixPartFull)
 <data.FullText>
