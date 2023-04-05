@@ -22,6 +22,7 @@ newFile = open(newFileName, 'w', encoding='cp1252')
 for line in originalList:
     lineList = line.split(',')
 
+    lineList[2] = "Example.ogg"
     lineList[7] = "RightSuffix"
     lineList[8] = "WrongSuffix"
     lineList[10] = "PrefixPartFull"
